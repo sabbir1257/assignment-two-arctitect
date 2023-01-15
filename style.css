@@ -1,388 +1,386 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    background-color: 	#F5F5F5;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
 }
-.container{
-    margin: 0 200px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.container {
+  margin: 0 200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.back-color{
-    background-color: rgba(255, 144, 14, 0.1);
+.back-color {
+  background-color: rgba(255, 144, 14, 0.1);
 }
-p{
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
+p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
 }
 /**************
  nav section 
 ****************/
-nav{
-    height: 80px;
-    width: 100%;
-    padding-top: 30px;
+nav {
+  height: 80px;
+  width: 100%;
+  padding-top: 30px;
 }
-label.companie-name{
-    color:#131313 ;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: 700;
+label.companie-name {
+  color: #131313;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 700;
 }
-nav ul{
-    float: right;
-    margin-right: 20px;
+nav ul {
+  float: right;
+  margin-right: 20px;
 }
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
-nav ul li a{
-    color: #424242;
-    font-size: 20px;
-    padding: 7px 13px;
-    border-radius: 3px;
+nav ul li a {
+  color: #424242;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
 }
-a:hover{
-    background-color: aquamarine;
-    transition: .5s;
+a:hover {
+  background-color: aquamarine;
+  transition: 0.5s;
 }
-.checkbtn{
-    font-size: 30px;
-    color:#424242 ;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+.checkbtn {
+  font-size: 30px;
+  color: #424242;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
-#check{
-    display: none;
+#check {
+  display: none;
 }
 /***********
  brand new 
  ************/
- header{
-    display: grid;
-    justify-content:end;
-    padding-top: 116px;
-    text-align: center;
- }
- .brand{
-    width: 100%
- }
- .brand h1{
-    font-size: 65px;
-    font-weight: 700;
- }
- .brand button, .button{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    color: #FFFFFF;
-    border: 0;
-    width: 180px;
-    height: 64px;
-    border-radius: 10px;
-    background-color: orange;
+header {
+  display: grid;
+  justify-content: end;
+  padding-top: 116px;
+  text-align: center;
+}
+.brand {
+  width: 100%;
+}
+.brand h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.brand button,
+.button {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+  width: 180px;
+  height: 64px;
+  border-radius: 10px;
+  background-color: orange;
 }
 /**********************
  banner img section
 ***********************/
-.banner{
-    display: grid;
-    justify-items: center;
-    padding-top: 50px;
+.banner {
+  display: grid;
+  justify-items: center;
+  padding-top: 50px;
 }
 /*************
  team section
  **************/
-.team{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 130px;
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 130px;
 }
-.team-img img{
-    padding: 10px;
+.team-img img {
+  padding: 10px;
 }
-.team-title{
-    padding-top: 200px;
-    padding-left: 76px;
+.team-title {
+  padding-top: 200px;
+  padding-left: 76px;
 }
 
-.span-1{
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 53px;
-color: #727272;
+.span-1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
 }
-.span-2{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    color: #131313;
+.span-2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
 }
-.span-3{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    color: #FF900E;
+.span-3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ff900e;
 }
 /******************
  architect section 
  ******************/
-.architect{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 130px;
-    gap: 54px;
+.architect {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 130px;
+  gap: 54px;
 }
-.architect-title{
-    padding-top: 39px;
-    /* background-color: #FFFFFF; */
+.architect-title {
+  padding-top: 39px;
+  /* background-color: #FFFFFF; */
 }
-.architect-box{
-    margin-top: 40px;
-    /* background-color: #FFFFFF; */
+.architect-box {
+  margin-top: 40px;
+  /* background-color: #FFFFFF; */
 }
 .architect-box-1 h2 {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    color: #131313;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
 }
-/* .architect-box-color{
-    width: 5px;
-    height: 80px;
-    background-color: yellow;
-    -ms-transform: scaleY(1.5); IE 9 */
-
-.architect-box h3{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    color: #131313;
+.architect-box h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
 }
-.architect-img{
-    position: relative;
+.architect-img {
+  position: relative;
 }
-.architect-img button{
-    position: absolute;
-    width: 342px;
-    height: 200px;
-    left: 903px;
-    top: 3106px;
-    background: #FF900E;
-    color: #FFFFFF;
-    border-radius: 8px;
-    border: 0;
-    top: 850px;
-    left: -104px;
+.architect-img button {
+  position: absolute;
+  height: 200px;
+  background: #ff900e;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 0;
+  top: 850px;
+  left: -104px;
+  padding: 0 40px;
 }
 .architect-img span {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 70px;
-    text-align: center;
-    background-color: #FF900E;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #ff900e;
 }
 /* **********
 some section
  *************/
-.some{
-    margin-top: 150px;
+.some {
+  margin-top: 150px;
 }
-.some h2{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    color: #131313;
+.some h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
 }
-.some-box{
-    margin-top: 100px;
-    box-sizing: border-box;
-    width: 241.83px;
-    height: 241.83px;
-    border: 1px solid #FF900E;
-    border-radius: 8px;
+.some-box {
+  margin-top: 100px;
+  box-sizing: border-box;
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
 }
-#some{
-    display: flex;
-    justify-content: space-between;
+#some {
+  display: flex;
+  justify-content: space-between;
 }
 /* *********
 our section
  ************/
- .our{
-    display: grid;
-    justify-content: center;
-    text-align: center;
-    margin-top: 180px;
- }
- .our h2{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
- }
- .our-main{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-top: 50px;
-    justify-items: center;
- }
- /******************
+.our {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-top: 180px;
+}
+.our h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.our-main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 50px;
+  justify-items: center;
+}
+/******************
   footer section
   ******************/
-  footer{
-    display: grid;
-    justify-items: center;
-    background-color: #FFF4E7;
-    margin:170px 0 ;
-    width: 100%;
-  }
-  footer p{
-    padding: 20px 0;
-    background-color: #FFF4E7;
-    text-align: center;
-  }
+footer {
+  display: grid;
+  justify-items: center;
+  background-color: #fff4e7;
+  margin: 170px 0;
+  width: 100%;
+}
+footer p {
+  padding: 20px 0;
+  background-color: #fff4e7;
+  text-align: center;
+}
 /************** 
 media queries 
 ***************/
-@media (max-width:952px) {
-    .container{
-        margin: 0;
-    }
-    /************
+@media (max-width: 952px) {
+  .container {
+    margin: 0;
+  }
+  /************
      nav section
     *************/
-    label.companie-name{
-        font-size :30px;  
-        padding-left: 20px;
-        line-height: 30px;
-        display: grid;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
+  label.companie-name {
+    font-size: 30px;
+    padding-left: 20px;
+    line-height: 30px;
+    display: grid;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
 }
-@media (max-width:858px){
-    /************
+@media (max-width: 858px) {
+  /************
      nav section 
      ************/
-    .container{
-        margin: 0;
-    }
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 80px;
-        left:-100%;
-        text-align: center;
-        transition: all .5s;
-        background-color: orange;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px ;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    a:hover{
-        background:none;
-        color:#0082e6 ;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
+  .container {
+    margin: 0;
+  }
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    background-color: orange;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
 }
-@media screen and (max-width:688px) {
-    .container{
-        margin: 0 10px;
-        display: grid;
-    }
-    /**************
+@media screen and (max-width: 688px) {
+  .container {
+    margin: 0 10px;
+    display: grid;
+  }
+  /**************
      brand section 
     ***************/
-    .brand{
-        padding-bottom: 50px;
-    }
-    /******************
+  .brand {
+    padding-bottom: 50px;
+  }
+  /******************
      banner img section
     ********************/
-    .banner img{
-        display: grid;
-        width: 100%;
-        padding: 5px;
-    }
-    /***************
+  .banner img {
+    display: grid;
+    width: 100%;
+    padding: 5px;
+  }
+  /***************
      team section 
     *****************/
-    .team{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .team-title{
-        padding: 0;
-        text-align: justify;
-        padding-right: 10px;
-    }
-    /******************
+  .team {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-title {
+    padding: 0;
+    text-align: justify;
+    padding-right: 10px;
+  }
+  /******************
      architect section 
      *******************/
-     .architect{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .architect-title{
-        width: 100%;
-    }
-    .architect-img img{
-        width: 100%;
-    }
-    .architect-img button{
-        width: 100%;
-    }
-    /*************
+  .architect {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .architect-title {
+    width: 100%;
+  }
+  .architect-img img {
+    width: 100%;
+  }
+  .architect-img button {
+    width: 100%;
+    position: absolute;
+    top: 397px;
+    left: -2px;
+    padding: 10px;
+  }
+  /*************
      some section
      *************/
-     #some{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-     }
-    /* our section */
-    .our-main{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-    }
+  #some {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  /* our section */
+  .our-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }
